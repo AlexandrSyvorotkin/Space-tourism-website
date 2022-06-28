@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.module.scss';
+import Home from "./Routes/Home";
+import styles from '../src/App.module.scss'
 
-function App() {
-  return (
-    <div className="App">
-
+const App = () => (
+    <div className={styles.app}>
+        <Home/>
     </div>
-  );
-}
+);
 
 export default App;

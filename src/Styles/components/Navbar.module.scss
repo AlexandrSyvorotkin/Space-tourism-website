@@ -1,0 +1,28 @@
+.navbar {
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  z-index: 1;
+  .navbar_list {
+    display: flex;
+    gap: 50px;
+    color: var(--color-3);
+    font-family: var(--font-family-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    padding-left: 123px;
+    padding-top: 39px;
+    text-transform: uppercase;
+    & > li {
+      list-style: none;
+      & > span {
+        font-weight: 700;
+      }
+    }
+  }
+
+}
