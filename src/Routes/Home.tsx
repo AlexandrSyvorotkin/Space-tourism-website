@@ -6,7 +6,6 @@ const Home: FC = () => {
     console.log(Children)
     return (
         <div className={styles.home}>
-
             <div className={styles.description_wrapper}>
                 <div className={styles.home_description}>
                     <span>SO, YOU WANT TO TRAVEL TO</span>

@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from '../Styles/Routes/Crew.module.scss'
 
 const Crew = () => {
     return (
-        <h1>
-            kek
-        </h1>
+        <div className={styles.crew}>
+
+        </div>
     );
 };
 

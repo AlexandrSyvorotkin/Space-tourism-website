@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
+import styles from '../Styles/Routes/Destination.module.scss'
 
 const Destination = () => {
     return (
-        <h1>
-            hello
-        </h1>
+        <div className={styles.destination}>
+
+        </div>
     );
 };
 

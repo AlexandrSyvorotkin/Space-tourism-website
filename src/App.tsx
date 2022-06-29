@@ -9,6 +9,7 @@ import {
 import Destination from "./Routes/Destination";
 import Crew from "./Routes/Crew";
 import Header from "./Layout/Header";
+import Technologies from "./Routes/Technologies";
 
 const App = () => (
     <div className={styles.app}>
@@ -17,7 +18,7 @@ const App = () => (
             <Route path="/" element={<Home/>}/>
             <Route path="destination" element={<Destination/>}/>
             <Route path="crew" element={<Crew/>}/>
-            <Route path="technology" element={<Crew/>}/>
+            <Route path="technology" element={<Technologies/>}/>
         </Routes>
     </div>
 );
