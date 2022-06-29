@@ -1,0 +1,19 @@
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1385px;
+  left: 55px;
+  top: 40px;
+}
+.span {
+  width: 473px;
+  height: 1px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  position: absolute;
+  left: 120px;
+  z-index: 2;
+}

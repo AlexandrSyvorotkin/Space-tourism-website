@@ -8,9 +8,11 @@ import {
 } from "react-router-dom";
 import Destination from "./Routes/Destination";
 import Crew from "./Routes/Crew";
+import Header from "./Layout/Header";
 
 const App = () => (
     <div className={styles.app}>
+        <Header/>
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="destination" element={<Destination/>}/>

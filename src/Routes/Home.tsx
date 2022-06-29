@@ -1,18 +1,12 @@
 import React, {FC} from 'react';
 import styles from '../Styles/Routes/Home.module.scss'
-import Logo from '../Assets/shared/logo.svg'
-import Navbar from "../Components/Navbar";
+import {Children} from "react";
 
 const Home: FC = () => {
+    console.log(Children)
     return (
-        <header className={styles.home}>
-            <div className={styles.header}>
-                <div className={styles.logo}>
-                    <img src={Logo} alt="logo"/>
-                </div>
-                <span className={styles.span}/>
-                <Navbar/>
-            </div>
+        <div className={styles.home}>
+
             <div className={styles.description_wrapper}>
                 <div className={styles.home_description}>
                     <span>SO, YOU WANT TO TRAVEL TO</span>
@@ -26,7 +20,7 @@ const Home: FC = () => {
                     Explore
                 </div>
             </div>
-        </header>
+        </div>
     );
 };
 

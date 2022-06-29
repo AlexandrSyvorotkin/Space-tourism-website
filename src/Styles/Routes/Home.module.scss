@@ -1,31 +1,13 @@
 .home {
   background-image:url("../../Assets/home/background-home-desktop.jpg");
   height: 100%;
-  .header {
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 55px;
-  }
-  .span {
-    width: 473px;
-    height: 1px;
-    background: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.25;
-    position: absolute;
-    left: 180px;
-    z-index: 2;
-  }
   .description_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 251px;
     padding-left: 165px;
     padding-right: 165px;
-
+    padding-top: 387px;
   }
   .home_description {
     color: var(--color-3);
