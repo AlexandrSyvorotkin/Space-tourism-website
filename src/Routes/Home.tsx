@@ -1,9 +1,8 @@
 import React, {FC} from 'react';
 import styles from '../Styles/Routes/Home.module.scss'
-import {Children} from "react";
 
 const Home: FC = () => {
-    console.log(Children)
+
     return (
         <div className={styles.home}>
             <div className={styles.description_wrapper}>

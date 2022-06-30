@@ -1,1 +1,11 @@
 @import-normalize;
+
+
+.active-link:after {
+    display: block;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-3);
+    margin-top: 35px;
+}

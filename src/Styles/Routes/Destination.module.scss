@@ -1,4 +1,26 @@
 .destination {
-  background-image:url("../../Assets/destination/background-destination-desktop.jpg");
+  background-image: url("../../Assets/destination/background-destination-desktop.jpg");
   height: 100%;
+
+  &_information {
+    position: relative;
+    top: 212px;
+    left: 165px;
+  }
+
+  .planetRoutes {
+    margin-top: 64px;
+    & > ul {
+      display: flex;
+      gap: 35px;
+      font-family: var(--font-family-secondary);
+      color: var(--color-3);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2.7px;
+      list-style: none;
+    }
+  }
 }

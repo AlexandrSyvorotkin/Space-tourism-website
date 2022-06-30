@@ -4,6 +4,7 @@
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(81.5485px);
   z-index: 1;
+
   .navbar_list {
     display: flex;
     gap: 50px;
@@ -22,21 +23,11 @@
       text-decoration: none;
       color: var(--color-3);
 
-      &:hover {
-        &:after {
-          display: block;
-          content: '';
-          height: 3px;
-          width: 100%;
-          background-color: var(--color-3);
-          margin-top: 35px;
-        }
-      }
-
       & > span {
         font-weight: 700;
       }
     }
   }
+
 
 }
